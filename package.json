@@ -1,0 +1,19 @@
+{
+    "name": "art-website",
+    "version": "1.0.0",
+    "description": "A website for uploading and rating art.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Daniel Quiroz",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongoose": "^8.12.1",
+        "multer": "^1.4.5-lts.1"
+    }
+}

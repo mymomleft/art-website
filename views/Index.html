@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Art Gallery</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" name="art" id="artInput" accept="image/*" required>
+      <button type="submit">Upload Art</button>
+    </form>
+
+    <div id="artGallery">
+      <!-- Art will be dynamically inserted here -->
+      <div class="art-item">
+        <img src="/images/art1.jpg" alt="Art 1">
+        <div class="stars">
+          <span data-art-id="1" data-rating="1">&#9733;</span>
+          <span data-art-id="1" data-rating="2">&#9733;</span>
+          <span data-art-id="1" data-rating="3">&#9733;</span>
+          <span data-art-id="1" data-rating="4">&#9733;</span>
+          <span data-art-id="1" data-rating="5">&#9733;</span>
+        </div>
+        <p>Art 1 Description</p>
+      </div>
+      <div class="art-item">
+        <img src="/images/art2.png" alt="Art 2">
+        <div class="stars">
+          <span data-art-id="2" data-rating="1">&#9733;</span>
+          <span data-art-id="2" data-rating="2">&#9733;</span>
+          <span data-art-id="2" data-rating="3">&#9733;</span>
+          <span data-art-id="2" data-rating="4">&#9733;</span>
+          <span data-art-id="2" data-rating="5">&#9733;</span>
+        </div>
+        <p>Art 2 Description</p>
+      </div>
+      <div class="art-item">
+        <img src="/images/art3.png" alt="Art 3">
+        <div class="stars">
+          <span data-art-id="2" data-rating="1">&#9733;</span>
+          <span data-art-id="2" data-rating="2">&#9733;</span>
+          <span data-art-id="2" data-rating="3">&#9733;</span>
+          <span data-art-id="2" data-rating="4">&#9733;</span>
+          <span data-art-id="2" data-rating="5">&#9733;</span>
+        </div>
+        <p>Art 3 Description</p>
+      </div>
+      <div class="art-item">
+        <img src="/images/art4.png" alt="Art 4">
+        <div class="stars">
+          <span data-art-id="2" data-rating="1">&#9733;</span>
+          <span data-art-id="2" data-rating="2">&#9733;</span>
+          <span data-art-id="2" data-rating="3">&#9733;</span>
+          <span data-art-id="2" data-rating="4">&#9733;</span>
+          <span data-art-id="2" data-rating="5">&#9733;</span>
+        </div>
+        <p>Art 4 Description</p>
+      </div>
+      <div class="art-item">
+        <img src="/images/art5.png" alt="Art 5">
+        <div class="stars">
+          <span data-art-id="2" data-rating="1">&#9733;</span>
+          <span data-art-id="2" data-rating="2">&#9733;</span>
+          <span data-art-id="2" data-rating="3">&#9733;</span>
+          <span data-art-id="2" data-rating="4">&#9733;</span>
+          <span data-art-id="2" data-rating="5">&#9733;</span>
+        </div>
+        <p>Art 5 Description</p>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
